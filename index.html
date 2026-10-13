@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brew House Coffee</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Our CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#home">Brew House</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#menu-items">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section id="home" class="hero d-flex align-items-center text-center">
+    <div class="container">
+      <h1>Fresh Coffee, Fresh Mood</h1>
+      <p class="lead">Handcrafted coffee made with love, every single morning.</p>
+      <a href="#menu-items" class="btn btn-warning btn-lg">See Our Menu</a>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">About Us</h2>
+      <p class="text-center mx-auto about-text">
+        Brew House is a cozy coffee shop where every cup is made from freshly roasted beans.
+        Come relax, work, or meet your friends with a hot cup of coffee.
+      </p>
+    </div>
+  </section>
+
+  <!-- FEATURES (Flexbox) -->
+  <section class="features py-5">
+    <div class="container features-row">
+      <div class="feature-box">
+        <h4>Fresh Beans</h4>
+        <p>Roasted fresh every day.</p>
+      </div>
+      <div class="feature-box">
+        <h4>Quick Service</h4>
+        <p>Your coffee ready in minutes.</p>
+      </div>
+      <div class="feature-box">
+        <h4>Cozy Place</h4>
+        <p>Comfortable seating for everyone.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU SECTION (Bootstrap cards) -->
+  <section id="menu-items" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Our Menu</h2>
+      <div class="row g-4">
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100 text-center shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Espresso</h5>
+              <p class="card-text">Strong and bold single shot.</p>
+              <p class="price">₹120</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100 text-center shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Cappuccino</h5>
+              <p class="card-text">Espresso with creamy milk foam.</p>
+              <p class="price">₹150</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100 text-center shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Cold Coffee</h5>
+              <p class="card-text">Chilled, sweet and refreshing.</p>
+              <p class="price">₹160</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Us</h2>
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-8 col-lg-6">
+          <form>
+            <div class="mb-3">
+              <label class="form-label">Name</label>
+              <input type="text" class="form-control" placeholder="Your name">
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Email</label>
+              <input type="email" class="form-control" placeholder="Your email">
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Message</label>
+              <textarea class="form-control" rows="4" placeholder="Your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-dark w-100">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">© 2026 Brew House Coffee. All rights reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
