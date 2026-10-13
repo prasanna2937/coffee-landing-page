@@ -1,7 +1,7 @@
 # Brew House: Responsive Landing Page
 
 A responsive coffee shop landing page built with HTML, CSS, Flexbox and Bootstrap.
-
+Live demo: https://prasanna2937.github.io/coffee-landing-page
 ## Features
 - Responsive navbar (hamburger menu on mobile)
 - Hero section, About section
